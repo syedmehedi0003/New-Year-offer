@@ -153,7 +153,56 @@
 
 /* place or vnue styles end  */
 
+
 .offer{
     display: flex;
       margin: 120px 100px;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.offer-title{
+    color: #FF0000;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.comming{
+    width: 33.33%;
+}
+
+
+.comming-soon{
+    color: #070211;
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.offer-desc{
+    font-size: 16px;
+    color: #070211; 
+    font-weight: 300;
+}
+
+.comming-img{
+    width: 35%;
+    margin: 0px 70px;
+    border: 8px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.comming-img img{
+    /* margin-right: 20px; */
+  
+}
+
+.new-year{
+    width: 33.33%;
+}
+
+.year{
+    font-weight: 700;
 }
