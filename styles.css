@@ -1,0 +1,159 @@
+.merriweather-common {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.banner{
+    background-image:    
+    radial-gradient(rgba(7, 2, 17, 100), 
+                    rgba(7,2, 17, 0)),  
+                    url(images/Banner-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px 0px 100px;
+
+}
+.banner-content{
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.banner-text{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title{
+    font-size: 72px;
+    font-weight: black;
+}
+
+/* banner styles end  */
+
+.discount{
+     margin-top: 120px;
+    text-align: center;
+}
+.dis-tittle{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    text-align: center;
+    margin: 0px;
+}
+
+.holiday{
+    color: #FF0000;
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.dis-catagory{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-top: 16px;
+}  
+
+/* discount % off style end  */
+
+.welcome{
+    background-image: radial-gradient(rgba(7, 2, 17, 100), 
+                    rgba(7,2, 17, 0)),  url(images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 120px 100px 0px 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+.welcome-content{
+  padding: 60px 80px 60px 100px;
+}
+
+.welcome-img{
+    padding: 50px 100px 50px 0px;
+}
+
+.welcome-title{
+    font-size: 64px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.wel-description{
+    color: #FFFFFF;
+}
+
+.wel-btn{
+    background-color: transparent;
+    border: none;
+
+}
+
+.wel-btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 48px;
+}
+/* welcome style end  */
+
+.place{
+    margin: 120px 100px;
+    background-image: linear-gradient(to bottom, rgb(228, 192, 192), rgb(254, 254, 254));
+    border-radius: 15px;
+}
+
+.place-span{
+    color: #FF0000;
+}
+
+.place-txt{
+    font-size:26px;
+    font-weight: 600;
+    text-align: center;
+    padding: 100px 30px;
+    margin: 0px;
+
+}
+
+.place-txt p{
+    margin-bottom: 10px;
+}
+
+.place-btn{
+    background-color: #FF0000;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+} 
+
+.place-btn a{
+     color: #FFFFFF;
+     text-decoration: none;
+     font-weight: 700;
+     font-size: 18px;
+}
+
+/* place or vnue styles end  */
+
+.offer{
+    display: flex;
+      margin: 120px 100px;
+}
