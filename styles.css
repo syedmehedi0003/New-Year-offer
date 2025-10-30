@@ -271,6 +271,9 @@
 
 .portfolio{
     margin: 120px 100px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
 }
 
 .port-banner{
