@@ -51,7 +51,7 @@
     margin: 0px;
 }
 
-.holiday{
+.holiday-txt{
     color: #FF0000;
     margin-top: 48px;
     font-size: 24px;
@@ -187,7 +187,7 @@
 }
 
 .comming-img{
-    width: 35%;
+    max-width: 35%;
     margin: 0px 70px;
     border: 8px solid #FF0000;
     border-radius: 50%;
@@ -205,4 +205,149 @@
 
 .year{
     font-weight: 700;
+}
+
+/* new yesr offer styles end  */
+
+.holiday-sale{
+    text-align: center;
+    margin: 120px 100px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.img1{
+    width: 50%;
+    margin-bottom: -150px;
+    position: relative;
+}
+
+.img2{
+    margin-bottom: 30px;
+}
+
+.sale-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sale-text{
+    margin-bottom: 52px;
+}
+
+.text-h5{
+    color: #070211;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.holiday{
+    font-size: 58px;
+    font-weight: 700;
+    color: #070211;
+    margin: 0px;
+}
+
+.text-description{
+    color: #070211;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+
+#holiday{
+    color: #FF0000;
+}
+
+.rectangle{
+    z-index: 1;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* holiday sale styles end  */
+
+.portfolio{
+    margin: 120px 100px;
+}
+
+.gifts{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 15px;
+}
+
+.awesome{
+    font-size: 38px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 18px;
+    margin-top: 0px;
+}
+
+/* .port-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.portfolio-img1{
+    max-width: 100%;
+}
+.portfolio-img1 img{
+    max-width: 30%;
+    padding:10px;
+}
+
+.port-desc{
+    color: #070211;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* portfolio end  */
+
+.subscribe{
+    text-align: center;
+    background-color: #f7eeee;
+    margin: 0px 100px;
+    border-radius: 15px;
+}
+
+.subscribe-cont{
+    padding: 60px 100px;
+}
+
+/* form{
+    display: block;
+} */
+
+.subscribe input[type="email"],[type="submit"]{
+    font-size: 16px;
+    border-radius: 5px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    
+}
+ 
+
+.subscribe input[type="email"]{
+    margin-right: 0px;
+    padding-left: 20px;
+    border-radius: 30px 0px 0px 30px;
+    max-width: 500px;
+}
+
+.subscribe input[type="submit"]{
+     margin-left: -10px;
+     padding: 0px 20px;
+     border-radius: 0px 30px  30px 0px;
+     background-color: #FF0000;
+     color: #FFFFFF;
 }
